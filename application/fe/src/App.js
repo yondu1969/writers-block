@@ -1,22 +1,46 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import Routes from './Routes';
-import Page from './components/Page';
+import { ThemeConfig } from './theme';
+import { Provider } from 'react-redux';
+import { Router } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+import { store, persistor } from './redux/store';
+import routes, { renderRoutes } from 'src/routes';
+import ScrollToTop from 'src/components/ScrollToTop';
+import LoadingScreen from 'src/components/LoadingScreen';
+import GoogleAnalytics from 'src/components/GoogleAnalytics';
+import AdapterDateFns from '@material-ui/lab/AdapterDateFns';
+import NotistackProvider from 'src/components/NotistackProvider';
+import { PersistGate } from 'redux-persist/lib/integration/react';
+import LocalizationProvider from '@material-ui/lab/LocalizationProvider';
 
-import 'react-lazy-load-image-component/src/effects/blur.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import 'react-image-lightbox/style.css';
-import 'aos/dist/aos.css';
+// Using for Auth (Check doc https://minimals.cc/docs/authentication)
+import JwtProvider from 'src/components/Auth/JwtProvider';
+// import FirebaseProvider from 'src/components/Auth/FirebaseProvider';
 
-const App = () => {
+// ----------------------------------------------------------------------
+
+const history = createBrowserHistory();
+
+function App() {
   return (
-    <Page>
-      <BrowserRouter>
-        <Routes />
-      </BrowserRouter>
-    </Page>
+    <Provider store={store}>
+      <PersistGate loading={<LoadingScreen />} persistor={persistor}>
+        <ThemeConfig>
+          <LocalizationProvider dateAdapter={AdapterDateFns}>
+            <NotistackProvider>
+              <Router history={history}>
+                <JwtProvider>
+                  <ScrollToTop />
+                  <GoogleAnalytics />
+                  {renderRoutes(routes)}
+                </JwtProvider>
+              </Router>
+            </NotistackProvider>
+          </LocalizationProvider>
+        </ThemeConfig>
+      </PersistGate>
+    </Provider>
   );
-};
+}
 
 export default App;

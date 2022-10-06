@@ -1,67 +1,89 @@
-# Enlite Starter - React Admin Dashboard Template For Full-Stack Developer
-----------
-Enlite Starter - React Dashboard Starter Template with Firebase Auth http://enlite.ux-maestro.com
+# [theFront - Multipurpose Template + UI Kit](https://thefront.maccarianagency.com/)
 
-### Read documentation here
-https://ilhammeidi.github.io/enlite-docs/#firebase
+MUI & ReactJS based Landing Pages Kit made with [MUI's](https://mui.com/?ref=maccarian-agency) components, [React](https://reactjs.org/?ref=maccarian-agency). It supports [create-react-app](https://facebook.github.io/create-react-app/?ref=maccarian-agency) build-tools (react-scripts), [NextJS](https://nextjs.org/?ref=maccarian-agency), [GatsbyJS](https://www.gatsbyjs.com/?ref=maccarian-agency) and Typescript to boost your app development process!
+A professional React Kit that comes with plenty of ready-to-use MUI components that will help you to build faster & beautiful fontend pages. Each component is fully customizable, responsive and easy to integrate.
 
-### Template Feature
--   Modern Technologies. Built with one of most popular javascript library React.JS and Redux
--   Premium designs. Simple and elegant theme color along with dark and lightmode
--   Multiple layout and RTL Support. Sidebar and Topbar navigation layout. Auto RTL adjustment styling with jss-rtl
--   Authentication. Use Firebase social and email login
--   Pre-build apps. Sample CRUD app with Redux-Saga and Realtime DB integration.
--   Support multilanguage. Including 6 translation English, Deutsch, Arabic, Chinese, Bahasa Indonesia, Español.
--   30+ react components and modules which reusable and easy to modify.
--   Various sample pages Landing page, 2 Dashboards variant, and many more
--   Next Generation JavaScript written in ES6
--   Responsive design Based on standard 12 Grid System
--   Starter Project. Build app from scratch without without being distracted from innate feature.
--   Test Unit. Material UI Components functional test with Mocha and Chai
--   High Performance. Styling with JSS (CSS in JS) and Async Code Splitting.
--   Clean code maintained by eslint.
--   Fully vector icons and font icons.
--   Direct code preview. Get source code easier without open files.
--   And many more…
+## Built with
 
-# Get Prime Version
-![enlite prime](https://cdn.dribbble.com/users/1866020/screenshots/6824785/enlite_4x.jpg)
+- React
+- MUI
+- React Scripts
+- NextJS
+- GatsbyJS
+- Typescript
+- Figma & Sketch
 
-[GET IT NOW on Envato Market](https://themeforest.net/item/enlite-prime-reactjs-fullstack-website-template/23803960)
+## Features
 
-[SEE DEMO](http://enlite.ux-maestro.com)
+theFront landing page examples can be used out of the box, but since they’re built on flexible components, you can also create new pages all your own with ease. Copy-paste a section here, a component there, switch up a few variables, and you have an entirely new landing!
 
-### Installation
+- More than 45 pages
+- 300+ component reusable compositions
+- create-react-app & react-scripts support
+- NextJS and server side rendering support
+- GatsbyJS and server side rendering support
+- Typescript support
+- Dark mode support
+- Image lazy loading support
+- Animated sections on scroll
+- Swiper support
+- Fully responsive on all modern browsers
+- Figma and Sketch design files (available in Standard Plus & Extended licences)
+- Rich documentation with code samples and parameters/options
+- Free customer support
+- Free updates
 
- - Clone this project
- - Install module dependencies by run this script in terminal
-    `npm install`
- - After finish downloading, then build Build Webpack DLL dependencies(If necessary).
-	 `npm run build:dll`
- - Finally run the app.
-	 `npm start`
- - Navigate to  [http://localhost:3001](http://localhost:3001)
+## Learn more
 
-### Deployment
+- [Launch a live demo](https://thefront.maccarianagency.com)
+- [Documentation & Quick Start](https://thefront.maccarianagency.com/docs/introduction)
 
- - First you need to build the production assets first
-    `npm run build`
- - Then start the app
-    `npm run start:prod`
- - If you want run it in background you may try PM2 [https://www.npmjs.com/package/pm2]( https://www.npmjs.com/package/pm2) Then run this command:
-    `node node_modules/.bin/cross-env NODE_ENV=production pm2 start server`
- - Navigate to  [http://localhost:3001](http://localhost:3001)
+## Design Highlights
 
-### Enable Direct Code Preview
-To make documenation easy and effective to access and implement, we attached source code in every component demos. We call it Direct Code Preview. This feature can be used in purchased product only (not available in demo).
+theFront was designed as a rich system from the start, which is reflected in both the end result and the original design.
 
- - Open config file  `/app/config/codePreview.js`
- - By default set by false
- - Change to  `enable: true`, to enabled direct code preview
- -   Test with any component demo, example in  [http://localhost:8080/app/tables/advanced-table](http://localhost:8080/app/tables/advanced-table).
--   Then at the bottom of every components you will see  **<> Show Code**  Button. Just click it.
--   The source code of that components will show as well.
--   You can see through, copy and paste directly any component in front of your eyes.
+- 15 Figma and Sketch files are available
+- Beautiful, modern style flexible enough to suit most brands
+- All images are included with a free-to-use license
+- Icon set provided by Font Awesome Kit
 
-### License
-This project is licensed under the terms of the [MIT license](https://github.com/ilhammeidi/boss-lite/blob/master/LICENSE.txt).
+The following are the pages that have Figma and Sketch design implementation:
+
+- [Job Listing](https://thefront.maccarianagency.com/job-listing)
+- [Rental](https://thefront.maccarianagency.com/rental)
+- [E-commerce](https://thefront.maccarianagency.com/e-commerce)
+- [Cloud Hosting](https://thefront.maccarianagency.com/cloud-hosting)
+- [Logistics](https://thefront.maccarianagency.com/logistics)
+- [Portfolio](https://thefront.maccarianagency.com/portfolio-page)
+- [Career Listing](https://thefront.maccarianagency.com/career-listing-minimal)
+- [Career Opening](https://thefront.maccarianagency.com/career-opening)
+- [Help Center](https://thefront.maccarianagency.com/help-center)
+- [Company About](https://thefront.maccarianagency.com/about)
+- [Company Pricing](https://thefront.maccarianagency.com/pricing)
+- [Blog Newsroom](https://thefront.maccarianagency.com/blog-newsroom)
+- [Blog Article](https://thefront.maccarianagency.com/blog-article)
+- [Company Contact](https://thefront.maccarianagency.com/contact-page)
+- [Account Page](https://thefront.maccarianagency.com/account/general)
+
+## Quick start
+
+- Install dependencies: `yarn install`
+- Start the server: `yarn run start`
+- Build on production: `yarn run build`
+
+## MUI Documentation
+
+The full documentation for the React Material Kit can be found [here](https://mui.com?ref=maccarian-agency).
+
+## Free Updates and Support
+
+No matter how well documented and built something is, sometimes you just need a little help! That’s why we make ourselves available to help you anytime, just contact our [support](hi@maccarianagency.com) email. We’re also planning tons of updates! In addition to keeping theFront up to date with MUI's core and any necessary patches, we’ll be adding new features regularly over the coming months!
+
+- [Contact us via email](hi@maccarianagency.com)
+
+## Contact Us
+
+- Email Us: hi@maccarianagency.com
+- [Follow us on Linkedin](https://www.linkedin.com/company/maccarian)
+- [Follow us on Instagram](https://www.instagram.com/maccarian/)
+- [Follow us on Facebook](https://facebook.com/maccarian.agency/)

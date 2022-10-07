@@ -1,36 +1,57 @@
+### v1.5.0
+
+###### Jul 04, 2022
+
+- Support react 18.
+- Upgrade some dependencies to the latest versions
+
+---
+
+### v1.4.0
+
+###### Apr 12, 2022
+
+- Update `src/components`.
+- Update `src/sections`.
+- Update `src/pages`.
+- Update `src/layouts`.
+- Update `src/theme`.
+- Upgrade some dependencies to the latest versions
+
+---
+
+### v1.3.0
+
+###### Feb 21, 2022
+
+- Support react-script v5.0.0
+- Source code improvement
+- Upgrade some dependencies to the latest versions
+
+---
+
 ### v1.2.0
 
-###### Mar 1, 2021
+###### Sep 18, 2021
 
-- Add design Figma source file (variants and auto layout)
-- Add Right-to-Left layout support
-- Add JWT login support (see in doc Authentication)
-- Add simple version
-- Update components override
-- Update `.babelrc`
-- Update `.eslintrc`
-- Update `jsconfig.json`
-- Update `package.json`
-- Upgraded depdendecy
-- Change `import xxx from '~/...'` `to import xxx from 'src/...'`
-- Improve folder structure
+- Support MIU v5.0.0 official release
+- Upgrade some dependencies to the latest versions
+- Update `src/theme/typography.js`
+- Upgrade some dependencies to the latest versions
 
 ---
 
 ### v1.1.0
 
-###### Feb 3, 2021
+###### Jul 23, 2021
 
-- Depdendecy versions `@material-ui` from 5.0.0-alpha.23 to 5.0.0-alpha.24
-- Fix the injection order of the CSS with yarn. JSS and emotion are still cohabitating until v5 reaches a stable version. We need to tell emotion to inject before JSS
-- Fix layout doc `src/layouts/DocsLayout` breakpoints
-- Fix double scroll bar on mobile `src/components/Scrollbars.js`
-- Improvement Carousel implementation
+- Support MUI v5.0.0-beta.1
+- Upgrade some dependencies to the latest versions
 
 ---
 
 ### v1.0.0
 
-###### Jan 26, 2021
+###### Jun 28, 2021
 
 Initial release.
